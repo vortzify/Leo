@@ -12,12 +12,11 @@
 [![Express.js](https://img.shields.io/badge/Library-Express.js-35495E?logo=express&color=00ffff)](https://expressjs.com/)
 
 
-# Security Policy
+# ⚠️ Security Policy
 
 ## Reporting a Vulnerability
 
 If you discover a security vulnerability in this project, please report it responsibly by sending an email to:
-
 
 Please include:
 
