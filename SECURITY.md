@@ -18,3 +18,39 @@
 
 If you discover a security vulnerability in this project, please report it responsibly by sending an email to:
 
+
+Please include:
+
+- A detailed description of the vulnerability.
+- Steps to reproduce the issue.
+- Any relevant files or screenshots.
+
+Do **not** create a public issue for security vulnerabilities. This helps prevent malicious exploitation.
+
+## Supported Versions
+
+| Version | Supported          |
+|---------|------------------|
+| 1.x     | ✅ Supported      |
+| 0.x     | ⚠️ Deprecated     |
+
+We only address security issues in supported versions. Please upgrade to the latest version if you are using an unsupported version.
+
+## Security Best Practices
+
+- Keep dependencies up-to-date.
+- Follow secure coding guidelines.
+- Regularly review the code for potential vulnerabilities.
+
+## Response Process
+
+1. Acknowledge receipt of the report within 24 hours.
+2. Investigate and verify the vulnerability.
+3. Provide a timeline for a fix, if applicable.
+4. Release a patched version and notify the reporter.
+5. Publicly disclose the vulnerability after it has been fixed.
+
+## References
+
+- [GitHub Security Best Practices](https://docs.github.com/en/code-security/security-advisories)
+- [OWASP Top 10 Security Risks](https://owasp.org/www-project-top-ten/)
