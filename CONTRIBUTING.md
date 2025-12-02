@@ -8,6 +8,62 @@
 ![React.js](https://img.shields.io/badge/Library-React.js-61DAFB?logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Build-Node.js-informational?style=flat&logo=nodedotjs&color=3c873a)
 
+# 🤝 Contributing
+We welcome contributions to improve this component library! Whether you want to add new components, fix bugs, improve documentation, or enhance tests, your help is appreciated.
+
+### 1️⃣ How to Contribute
+
+1. **Clone your fork locally**:
+
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
+
+2. Install dependencies:
+```bash
+pnpm install
+```
+4. Create a new branch for your feature or fix:
+```bash
+git checkout -b feature/my-new-component
+```
+
+### 2️⃣ Coding Guidelines
+- Use TypeScript for all components and utilities.
+- Follow the existing folder structure: src/components/ComponentName.
+- Keep components small and reusable.
+- Write clear, descriptive prop names and fully type all props.
+
+
+### 3️⃣ Testing Your Changes
+- Add tests for new features or bug fixes (see the Testing section).
+- Run all tests before committing:
+
+```bash
+pnpm test
+```
+- Ensure coverage remains high.
+
+### 4️⃣ Storybook
+
+- Add stories for any new components:
+    - - Place .stories.tsx files next to the component.
+    - -  Make sure stories demonstrate all important states of the component.
+- Run Storybook to preview your component locally:
+
+```bash
+pnpm storybook
+```
+
+5️⃣ Pull Request Guidelines
+
+
+
+
+
+
+
 
 
 ## 📖 Storybook
@@ -151,6 +207,8 @@ describe('Checkbox', () => {
 
 5. Test behavior, not implementation:
     - Focus on what the component does, not how it does it.
+
+
 
 <br/><br/>
 
