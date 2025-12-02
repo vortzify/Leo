@@ -40,66 +40,18 @@ Perfect for developers who want a scalable, fast, and flexible UI foundation for
 ## 💻 Installation
 You can install this library in your projects using 'pnpm', 'npm', or 'yarn'. Make sure your package registry is correctly configured if using a private registry, or install directly from a public registry or local path.
 
-
-
-
-### 1️⃣ How to Contribute
-
-1. **Clone your fork locally**:
-
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-```
-
-2. Install dependencies:
-```bash
-pnpm install
-```
-4. Create a new branch for your feature or fix:
-```bash
-git checkout -b feature/my-new-component
-```
-
-### 2️⃣ Coding Guidelines
-- Use TypeScript for all components and utilities.
-- Follow the existing folder structure: src/components/ComponentName.
-- Keep components small and reusable.
-- Write clear, descriptive prop names and fully type all props.
-
-
-### 3️⃣ Testing Your Changes
-- Add tests for new features or bug fixes (see the Testing section).
-- Run all tests before committing:
-
-```bash
-pnpm test
-```
-- Ensure coverage remains high.
-
-### 4️⃣ Storybook
-
-- Add stories for any new components:
-    - - Place .stories.tsx files next to the component.
-    - -  Make sure stories demonstrate all important states of the component.
-- Run Storybook to preview your component locally:
-
-```bash
-pnpm storybook
-```
-
-5️⃣ Pull Request Guidelines
-
 <br/><br/>
 
 # 🤝 Contributing
-We welcome contributions to improve this component library! Whether you want to add new components, fix bugs, improve documentation, or enhance tests, your help is appreciated.
+We welcome contributions to improve this component library! Whether you want to add new components, fix bugs, improve documentation, or enhance tests, your help is appreciated. Read the contributing guide to learn about our development process, how to propose bug fixes and improvements, and how to build and test your changes.
+
+Contributing to Leo is about more than just issues and pull requests! There are many other ways to support Leo beyond contributing to the code base.
 
 <br/><br/>
 
 
 # ⚠️ Security Vulnerabilities
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Leo, please send an e-mail to Phil Graham via ijeffrouk@gmail.com. All security vulnerabilities will be promptly addressed.
 
 <br/><br/>
 
