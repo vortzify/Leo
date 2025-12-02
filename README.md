@@ -14,8 +14,8 @@ A high-performance React component library engineered with TypeScript, Vite, and
 
 # 📑 Table of Contents
 
-- [Introduction](https://github.com/vortzify/Leo#Installation)
-- [Installation](https://github.com/vortzify/Leo#Installation)
+- [Introduction](#Installation)
+- [Installation](#Installation)
 - Usage
 - Components
 - Testing
