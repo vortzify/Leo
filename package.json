@@ -4,6 +4,11 @@
     "version": "0.0.1",
     "packageManager": "pnpm@10.24.0",
     "type": "module",
+    "author": {
+        "name": "Phil Graham",
+        "email": "ijeffrouk@gmail.com",
+        "url": "https://github.com/ijeffro"
+    },
     "scripts": {
         "dev": "vite",
         "test": "vitest",
