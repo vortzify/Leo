@@ -12,45 +12,6 @@
 
 A high-performance React component library engineered with TypeScript, Vite, and Node.js. Every component is fully typed, tree-shakeable, and optimized for modern build tools like Bun and pnpm. Perfect for developers who want a fast, flexible, and scalable UI foundation.
 
-# 📑 Table of Contents
-
-- [Introduction](https://github.com/vortzify/Leo#Installation)
-- [Installation](https://github.com/vortzify/Leo#Installation)
-- Usage
-- Components
-- Testing
-- Linting & Type Checking
-- Building
-- Storybook / Documentation
-- Continuous Integration (CI)
-- Contributing
-- License
-
-
-# 💿 Installation
-You can install this component library using pnpm, npm, or yarn.
-
-| pnpm | npm | yarn |
-|------|-----|------|
-| `pnpm add your-library-name` | `npm install your-library-name` | `yarn add your-library-name` |
-
-
-<details>
-    <summary>pnpm</summary>
-    ```
-    pnpm add your-library-name
-    ```
-</details> 
-<details> 
-    <summary>yarn</summary>
-
-    ```
-    yarn add your-library-name
-    ```
-</details>
-
-
-
 # 🧪 Testing
 
 This project uses Vitest, React Testing Library, and pnpm for running unit and component tests.
