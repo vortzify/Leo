@@ -1,9 +1,9 @@
 
 # Leo <img src="./assets/leo.png" width="100" height="150"/>
 
+[![Build and Deploy](https://github.com/kratostaine/spring-authorization-server/actions/workflows/continuous-integration-workflow.yml/badge.svg)](https://github.com/kratostaine/spring-authorization-server/actions/workflows/continuous-integration-workflow.yml)
 ![Version](https://img.shields.io/badge/Version-0.0.1-blue)
 ![Bun](https://img.shields.io/badge/Manager-Bun-informational?style=flat&logo=bun&color=F9AD00)
-![Pnpm](https://img.shields.io/badge/Manager-Pnpm-informational?style=flat&logo=pnpm&color=F9AD00)
 ![Vite](https://img.shields.io/badge/Build-Vite-informational?style=flat&logo=vite&color=646CFF)
 ![Typscript](https://img.shields.io/badge/Code-Typescript-informational?style=flat&logo=typescript&color=3178c6)
 ![React.js](https://img.shields.io/badge/Library-React.js-61DAFB?logo=react&logoColor=white)
