@@ -7,7 +7,7 @@
 ![Typscript](https://img.shields.io/badge/Code-Typescript-informational?style=flat&logo=typescript&color=3178c6)
 ![React.js](https://img.shields.io/badge/Library-React.js-61DAFB?logo=react&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Build-Node.js-informational?style=flat&logo=nodedotjs&color=3c873a)
-![Express.js](https://img.shields.io/badge/Library-Express.js-35495E?logo=expressdotjs&color=42b883)
+![Express.js](https://img.shields.io/badge/Library-Express.js-35495E?logo=express&color=42b883)
 <!-- ![Bun](https://img.shields.io/badge/Manager-Bun-informational?style=flat&logo=bun&color=F9AD00) -->
 
 
