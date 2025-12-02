@@ -21,7 +21,6 @@ Perfect for developers who want a scalable, fast, and flexible UI foundation for
 
 # 📑 Table of Contents
 
-- [Introduction](#introduction)
 - [Installation](#💻-Installation)
 - [Usage](#usage)
 - [Testing](#testing)
@@ -35,7 +34,7 @@ Perfect for developers who want a scalable, fast, and flexible UI foundation for
   - [Tips](#4️⃣-tips)
 - [Badges](#badges)
 - [Contributing](#🤝-Contributing)
-- [License](#license)
+- [License](#📜-License)
 
 <br/><br/>
 
