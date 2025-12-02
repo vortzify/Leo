@@ -17,7 +17,7 @@ A high-performance React component library engineered with TypeScript, Vite, and
 - [Installation](#Installation)
 - Usage
 - Components
-- [Testing](./.github/pages/TESTING.md)
+- [Testing](./TESTING.md)
 - Linting & Type Checking
 - Building
 - Storybook / Documentation
