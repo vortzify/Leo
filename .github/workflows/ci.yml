@@ -18,25 +18,31 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Setup Node.js first
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 20
-          cache: 'pnpm' # This works only after pnpm is available
 
-      - name: Enable Corepack (pnpm)
+      # Enable Corepack and prepare pnpm
+      - name: Enable Corepack and pnpm
         run: |
           corepack enable
           corepack prepare pnpm@latest --activate
+          pnpm -v
 
+      # Install dependencies
       - name: Install dependencies
         run: pnpm install
 
+      # Run tests
       - name: Run tests
         run: pnpm test
 
+      # Build library
       - name: Build library
         run: pnpm build
 
+      # Lint code
       - name: Lint code
         run: pnpm lint
