@@ -1,6 +1,6 @@
 # Leo <img src="https://raw.githubusercontent.com/AtomixPlus/Leo/refs/heads/main/src/assets/leo.png" width="100" height="150"/>
 
-[![CI](https://github.com/atomix/Leo/actions/workflows/ci.yml/badge.svg)](https://github.com/atomix/Leo/actions/workflows/ci.yml?branch=main)
+[![CI](https://github.com/AtomixPlus/Leo/actions/workflows/ci.yml/badge.svg)](https://github.com/AtomixPlus/Leo/actions/workflows/ci.yml?branch=main)
 [![Vitest](https://img.shields.io/badge/Test-Vitest-informational?style=flat&logo=vite&color=646CFF)](https://vitest.dev/)
 ![Version](https://img.shields.io/badge/Version-0.0.3-blue)
 [![Pnpm](https://img.shields.io/badge/Manager-Pnpm-informational?style=flat&logo=pnpm&color=F9AD00)](https://pnpm.io/)
