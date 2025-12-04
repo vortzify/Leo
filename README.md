@@ -21,8 +21,8 @@
     width: auto;
     height: 100%;
     display: none;
-    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    /* -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%); */
   }
 
 
@@ -112,7 +112,7 @@
   "
 >
   <img
-    src="https://raw.githubusercontent.com/AtomixPlus/Leo/refs/heads/main/src/assets/leo.png"
+    src="https://raw.githubusercontent.com/AtomixPlus/Leo/refs/heads/main/src/assets/elephant.png"
     alt="Leo"
     class="sue-image"
   />

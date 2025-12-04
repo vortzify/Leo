@@ -15,6 +15,128 @@
 # 🤝 Contributing
 We welcome contributions to improve this component library! Whether you want to add new components, fix bugs, improve documentation, or enhance tests, your help is appreciated.
 
+
+
+
+
+
+<style>
+  /* Hidden by default */
+  .sue-image {
+    width: auto;
+    height: 100%;
+    display: none;
+    /* -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%); */
+  }
+
+
+  /* Display at desktop breakpoint */
+  @media (min-width: 1630px) {
+    .sue-image {
+      display: block;
+      opacity: 0;
+      animation: fadeIn 0.6s ease-out forwards;
+    }
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+</style>
+
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(550px, 1fr)); gap: 10px">
+<div style="background: transparent; padding: 10px">
+
+  
+  <h2>📚 Storybook</h2>
+  <p>Sue uses <b>Storybook</b> to provide an isolated environment for developing, previewing, and documenting UI components. This section explains how to create stories for your components and how to run <b>Storybook</b> locally.</p>
+
+  - **Run Storybook via on localhost:6060** 
+
+  ```bash
+  bun sb
+  ```
+
+  <br>
+  
+  <h2>🧪 Testing</h2>
+  <p>Sue uses <b>Vitest</b> and <b>@testing-library/react</b> for testing components. You can run different types of tests using the following commands:</p>
+
+  - **Run all tests** 
+  ```
+  bun run test
+  ```
+  This runs all unit and integration tests in the project.
+
+  - **Run interactive UI tests** 
+  ```
+  bun run test:ui
+  ```
+  Opens an interactive testing mode where you can watch tests live and debug easily.
+
+  - **Run tests with coverage** 
+  ```
+  bun run test:coverage
+  ```
+
+  <br>
+
+  <h2>📁 Inside a Component Folder</h2>
+
+  Using Button as an example:
+
+  ```
+  📁 src/
+    📁 assets/
+    📁 components/
+      📁 Button/
+        📄 Button.tsx            → the component
+        📄 Button.test.tsx       → Vitest + RTL test
+        📄 Button.stories.tsx    → Storybook stories
+        📄 index.ts              → re-export component
+  ```
+
+<h3>✔️ Why this structure?</h3>
+
+- Keeps everything about a component cohesive
+- No long file names like Button.styles.tsx, Button.spec.tsx in the same folder
+- Storybook, tests, and component live side-by-side
+
+</div>
+ <div
+  class="image-wrapper"
+  style="
+    background: transparent;
+    padding: 20px;
+    display: grid;
+    align-items: end;
+  "
+>
+  <img
+    src="https://raw.githubusercontent.com/AtomixPlus/Leo/refs/heads/main/src/assets/elephant.png"
+    alt="Leo"
+    class="sue-image"
+  />
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 1️⃣ How to Contribute
 
 1. **Clone your fork locally**:
