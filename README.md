@@ -74,7 +74,7 @@ style="
 >
   <img
     src="https://raw.githubusercontent.com/AtomixPlus/Leo/refs/heads/main/src/assets/pages/animated-elephant.svg"
-    alt="Leo"
+    alt="Elephant"
   />
 </div></div>
 
