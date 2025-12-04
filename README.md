@@ -21,8 +21,6 @@
     width: auto;
     height: 100%;
     display: none;
-    /* -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-    mask-image: linear-gradient(to bottom, black 70%, transparent 100%); */
   }
 
 
