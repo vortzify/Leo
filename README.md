@@ -12,31 +12,6 @@
 [![Tailwind CSS](https://img.shields.io/badge/Style-Tailwind%20CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![React.js](https://img.shields.io/badge/Library-React.js-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
 
-<style>
-  /* Hidden by default */
-  .leo-image {
-    width: auto;
-    height: 100%;
-    display: none;
-  }
-
-
-  /* Display at desktop breakpoint */
-  @media (min-width: 250px) {
-    .leo-image {
-      display: block;
-      opacity: 0;
-      animation: fadeIn 0.6s ease-out forwards;
-    }
-  }
-
-  @keyframes fadeIn {
-    to {
-      opacity: 1;
-    }
-  }
-</style>
-
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 10px"><div style="background: transparent; padding: 10px">
 
